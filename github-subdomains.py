@@ -134,4 +134,3 @@ while True:
     pool = Pool( 30 )
     pool.map( partial(readCode,_regexp,_source), t_json['items'] )
     pool.close()
-    pool.join()
